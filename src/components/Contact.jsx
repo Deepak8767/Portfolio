@@ -32,7 +32,7 @@ color: "from-blue-500 to-cyan-500",
 {
 icon: Briefcase,
 label: "LinkedIn",
-value: "linkedin.com/in/deepakdeore5650",
+value: "linkedin.com/deepakdeore5650",
 link: "https://linkedin.com/in/deepakdeore5650",
 color: "from-blue-600 to-indigo-600",
 },
