@@ -46,7 +46,7 @@ color: "from-gray-600 to-gray-800",
 {
 icon: Trophy,
 label: "LeetCode",
-value: "leetcode.com/u/deepakdeore5650",
+value: "leetcode.com/deepakdeore5650",
 link: "https://leetcode.com/u/deepakdeore5650/",
 color: "from-orange-500 to-yellow-500",
 },
