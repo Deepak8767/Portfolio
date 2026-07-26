@@ -40,7 +40,7 @@ color: "from-blue-600 to-indigo-600",
 icon: Code2,
 label: "GitHub",
 value: "github.com/deepak8767",
-link: "https://github.com/deepak8767",
+link: "https://github.com/deepakdeore5650",
 color: "from-gray-600 to-gray-800",
 },
 {
