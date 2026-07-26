@@ -25,7 +25,7 @@ export const About = () => {
     {
       icon: Award,
       label: "CGPA",
-      value: "8.01",
+      value: "8.05",
       color: "from-yellow-500 to-orange-500",
     },
     {
