@@ -58,7 +58,7 @@ export const Projects = () => {
         "Brevo",
         "AI APIs",
       ],
-      github: "https://github.com/Deepak8767/CareerPilot-AI",
+      github: "https://github.com/Deepakdeore5650/CareerPilot-AI",
       features: [
         "Resume analysis",
         "Skill gap identification",
@@ -81,7 +81,7 @@ export const Projects = () => {
         "Razorpay",
       ],
       github:
-        "https://github.com/Deepak8767/LocalService-Provider",
+        "https://github.com/Deepakdeore5650/LocalService-Provider",
       features: [
         "Provider search",
         "Real-time booking",
@@ -102,7 +102,7 @@ export const Projects = () => {
         "MySQL",
       ],
       github:
-        "https://github.com/Deepak8767/E-Commerce-Shopping-Cart-App-built-with-Spring-Boot",
+        "https://github.com/Deepakdeore5650/E-Commerce-Shopping-Cart-App-built-with-Spring-Boot",
       features: [
         "Shopping cart",
         "Product management",
