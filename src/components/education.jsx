@@ -7,7 +7,7 @@ icon: "🎓",
 title: "B.Tech in Information Technology",
 year: "2024 - 2027",
 institute: "SVKM Institute of Technology, Dhule",
-extra: "CGPA: 8.01 / 10",
+extra: "CGPA: 8.05 / 10",
 color: "from-purple-500 to-pink-500",
 },
 {

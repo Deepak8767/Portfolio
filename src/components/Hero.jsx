@@ -23,7 +23,9 @@ export const Hero = () => {
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 left-20 w-80 h-80 bg-purple-500/20 rounded-full blur-3xl animate-pulse" />
 
-        <div className="absolute bottom-20 right-20 w-80 h-80 bg-violet-500/20 rounded-full blur-3xl animate-pulse" />
+        <div className="absolute bottom-20 right-20 w-80 h-80 bg-cyan-500/20 rounded-full blur-3xl animate-pulse" />
+
+        <div className="absolute top-1/3 right-1/4 w-72 h-72 bg-rose-500/10 rounded-full blur-3xl animate-pulse" />
 
         <div className="absolute left-1/2 top-1/2 w-[500px] h-[500px] -translate-x-1/2 -translate-y-1/2 border border-purple-500/10 rounded-full animate-pulse" />
       </div>
@@ -32,7 +34,13 @@ export const Hero = () => {
       {[...Array(15)].map((_, i) => (
         <motion.div
           key={i}
-          className="absolute w-2 h-2 bg-purple-300/30 rounded-full"
+          className={`absolute w-2 h-2 rounded-full ${
+            i % 3 === 0
+              ? "bg-cyan-300/30"
+              : i % 3 === 1
+              ? "bg-purple-300/30"
+              : "bg-rose-300/30"
+          }`}
           style={{
             left: `${Math.random() * 100}%`,
             top: `${Math.random() * 100}%`,
@@ -78,7 +86,7 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          <span className="bg-gradient-to-r from-white via-purple-200 to-purple-400 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-cyan-300 via-white to-purple-400 bg-clip-text text-transparent">
             Deepak Deore
           </span>
         </motion.h1>
@@ -145,6 +153,38 @@ export const Hero = () => {
             <Mail className="mr-2 h-5 w-5" />
             Contact Me
           </Button>
+        </motion.div>
+
+        {/* Featured Live Demos */}
+        <motion.div
+          className="flex flex-wrap items-center justify-center gap-4 pt-8"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
+        >
+          <a
+            href="https://health-track-mauve.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 hover:border-cyan-400/50 hover:bg-cyan-500/10 transition-all duration-300"
+          >
+            <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
+            <span className="text-sm text-gray-300 group-hover:text-cyan-300 transition-colors">
+              HealthTrack+ Live
+            </span>
+          </a>
+
+          <a
+            href="https://careerpilot-ai-1-cgrw.onrender.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 hover:border-violet-400/50 hover:bg-violet-500/10 transition-all duration-300"
+          >
+            <span className="w-2 h-2 rounded-full bg-violet-400 animate-pulse" />
+            <span className="text-sm text-gray-300 group-hover:text-violet-300 transition-colors">
+              CareerPilot AI Live
+            </span>
+          </a>
         </motion.div>
 
         {/* Social Links */}

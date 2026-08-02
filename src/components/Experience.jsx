@@ -14,13 +14,11 @@ export const Experience = () => {
     role: "Software Development Intern",
     company: "Infosys Springboard",
     duration: "Oct 2025 – Dec 2025",
-    highlights: [
-      "Developed Full Stack Applications using Spring Boot and React.",
-      "Built RESTful APIs for scalable backend services.",
-      "Created interactive React dashboards with real-time data.",
-      "Integrated Razorpay payment gateway for secure transactions.",
-      "Implemented AI Chatbot integration for customer support.",
-    ],
+     highlights: [
+     "Completed a Software Development Internship at Infosys Springboard",
+  "where I worked on Full Stack development using Spring Boot and React",
+  "built REST APIs, integrated payment solutions, and implemented AI-powered features."
+  ],
   };
 
   return (
