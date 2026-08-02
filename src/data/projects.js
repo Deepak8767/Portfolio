@@ -106,7 +106,7 @@ export const projects = [
       "A location-based marketplace that connects customers with nearby local service providers — think electricians, plumbers, cleaners and more. Customers can search by location, book in real time, and pay securely through Razorpay, while providers get a dashboard to manage bookings and track their ratings.",
     tech: ["Spring Boot", "React", "MySQL", "Razorpay"],
     github: "https://github.com/Deepakdeore5650/LocalService-Provider",
-    live: https://localservice-provider-1.onrender.com,
+    live: "https://localservice-provider-1.onrender.com",
     theme: "amber",
     role: "Full-Stack Developer",
     features: [
