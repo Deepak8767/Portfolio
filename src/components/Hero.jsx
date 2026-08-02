@@ -181,7 +181,7 @@ export const Hero = () => {
           >
             <span className="w-2 h-2 rounded-full bg-violet-400 animate-pulse" />
             <span className="text-sm text-gray-300 group-hover:text-violet-300 transition-colors">
-              CareerPilot AI Live
+              Pro Neghbour Live
             </span>
           </a>
           <a
@@ -193,18 +193,6 @@ export const Hero = () => {
             <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
             <span className="text-sm text-gray-300 group-hover:text-cyan-300 transition-colors">
               HealthTrack+ Live
-            </span>
-          </a>
-
-          <a
-            href="https://careerpilot-ai-1-cgrw.onrender.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 hover:border-violet-400/50 hover:bg-violet-500/10 transition-all duration-300"
-          >
-            <span className="w-2 h-2 rounded-full bg-violet-400 animate-pulse" />
-            <span className="text-sm text-gray-300 group-hover:text-violet-300 transition-colors">
-              CareerPilot AI Live
             </span>
           </a>
         </motion.div>
