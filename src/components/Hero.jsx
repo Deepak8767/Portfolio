@@ -163,6 +163,28 @@ export const Hero = () => {
           transition={{ delay: 0.3 }}
         >
           <a
+            href="https://careerpilot-ai-1-cgrw.onrender.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 hover:border-violet-400/50 hover:bg-violet-500/10 transition-all duration-300"
+          >
+            <span className="w-2 h-2 rounded-full bg-violet-400 animate-pulse" />
+            <span className="text-sm text-gray-300 group-hover:text-violet-300 transition-colors">
+              CareerPilot AI Live
+            </span>
+          </a>
+          <a
+            href="https://localservice-provider-1.onrender.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 hover:border-violet-400/50 hover:bg-violet-500/10 transition-all duration-300"
+          >
+            <span className="w-2 h-2 rounded-full bg-violet-400 animate-pulse" />
+            <span className="text-sm text-gray-300 group-hover:text-violet-300 transition-colors">
+              CareerPilot AI Live
+            </span>
+          </a>
+          <a
             href="https://health-track-mauve.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
@@ -194,7 +216,7 @@ export const Hero = () => {
           animate={{ opacity: 1 }}
         >
           <a
-            href="https://github.com/deepak8767"
+            href="https://github.com/deepakdeore5650"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-white/5 border border-white/10 text-gray-300 hover:text-white hover:border-purple-500 hover:scale-110 transition-all duration-300"
