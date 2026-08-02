@@ -68,35 +68,6 @@ export const THEMES = {
 export const projects = [
   {
     id: 1,
-    slug: "healthtrack-plus",
-    name: "HealthTrack+",
-    tagline: "AI-Powered Healthcare Operating System",
-    description:
-      "AI-powered healthcare ecosystem connecting patients, doctors and pharmacies into one intelligent platform.",
-    longDescription:
-      "HealthTrack+ is a full-stack healthcare platform that brings patients, doctors and pharmacies together in one place. It uses AI to help predict potential health risks from symptoms, connects users to nearby hospitals via Google Maps, and keeps every prescription and appointment organized in a single dashboard. The goal was to reduce the friction people face juggling multiple apps and paper records for their healthcare needs.",
-    tech: ["React", "Flask", "MySQL", "MongoDB", "Redis", "Gemini AI"],
-    github: "https://github.com/Durvesh-code/HealthTrack-",
-    live: "https://health-track-mauve.vercel.app/",
-    theme: "cyan",
-    featured: true,
-    role: "Full-Stack Developer",
-    features: [
-      "AI-powered disease prediction",
-      "Google Maps hospital finder",
-      "Wearable health tracking",
-      "Appointment booking system",
-      "Digital prescriptions",
-      "Multi-role authentication",
-    ],
-    highlights: [
-      "Built a Flask + Gemini AI microservice for symptom-based risk prediction",
-      "Designed a hybrid MySQL/MongoDB data layer for structured and unstructured health records",
-      "Used Redis for caching frequently accessed doctor and hospital data",
-    ],
-  },
-  {
-    id: 2,
     slug: "careerpilot-ai",
     name: "CareerPilot AI",
     tagline: "AI Resume Analysis Platform",
@@ -125,7 +96,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 2,
     slug: "local-service-provider",
     name: "Local Service Provider",
     tagline: "Service Booking Platform",
@@ -135,7 +106,7 @@ export const projects = [
       "A location-based marketplace that connects customers with nearby local service providers — think electricians, plumbers, cleaners and more. Customers can search by location, book in real time, and pay securely through Razorpay, while providers get a dashboard to manage bookings and track their ratings.",
     tech: ["Spring Boot", "React", "MySQL", "Razorpay"],
     github: "https://github.com/Deepakdeore5650/LocalService-Provider",
-    live: null,
+    live: https://localservice-provider-1.onrender.com,
     theme: "amber",
     role: "Full-Stack Developer",
     features: [
@@ -149,6 +120,35 @@ export const projects = [
       "Implemented location-based provider search and filtering",
       "Integrated Razorpay for secure end-to-end payments",
       "Built an analytics dashboard for providers to track bookings and earnings",
+    ],
+  },
+  {
+    id: 3,
+    slug: "healthtrack-plus",
+    name: "HealthTrack+",
+    tagline: "AI-Powered Healthcare Operating System",
+    description:
+      "AI-powered healthcare ecosystem connecting patients, doctors and pharmacies into one intelligent platform.",
+    longDescription:
+      "HealthTrack+ is a full-stack healthcare platform that brings patients, doctors and pharmacies together in one place. It uses AI to help predict potential health risks from symptoms, connects users to nearby hospitals via Google Maps, and keeps every prescription and appointment organized in a single dashboard. The goal was to reduce the friction people face juggling multiple apps and paper records for their healthcare needs.",
+    tech: ["React", "Flask", "MySQL", "MongoDB", "Redis", "Gemini AI"],
+    github: "https://github.com/Durvesh-code/HealthTrack-",
+    live: "https://health-track-mauve.vercel.app/",
+    theme: "cyan",
+    featured: true,
+    role: "Full-Stack Developer",
+    features: [
+      "AI-powered disease prediction",
+      "Google Maps hospital finder",
+      "Wearable health tracking",
+      "Appointment booking system",
+      "Digital prescriptions",
+      "Multi-role authentication",
+    ],
+    highlights: [
+      "Built a Flask + Gemini AI microservice for symptom-based risk prediction",
+      "Designed a hybrid MySQL/MongoDB data layer for structured and unstructured health records",
+      "Used Redis for caching frequently accessed doctor and hospital data",
     ],
   },
   {
