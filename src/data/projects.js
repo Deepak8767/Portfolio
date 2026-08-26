@@ -179,6 +179,35 @@ export const projects = [
       "Implemented order lifecycle tracking from cart to delivery",
     ],
   },
+  {
+  id: 5,
+  slug: "orderflow-microservices",
+  name: "OrderFlow",
+  tagline: "Event-Driven E-Commerce Microservices Platform",
+  description:
+    "Cloud-native order management system built on 6 independent Spring Boot microservices with Kafka, Redis, and service discovery.",
+  longDescription:
+    "OrderFlow re-imagines a typical e-commerce backend as a distributed system rather than a monolith. Six independently deployable services — authentication, orders, inventory, and notifications — are wired together with Eureka service discovery, a JWT-secured API gateway, and Kafka-based event messaging, so placing an order asynchronously triggers stock updates and user notifications. The entire stack, including three PostgreSQL instances, Redis, and Kafka, is orchestrated with a single Docker Compose command and verified under load with k6.",
+  tech: ["Spring Boot", "React", "Kafka", "PostgreSQL", "Redis", "Docker", "Eureka"],
+  github: "https://github.com/deepakdeore5650/orderflow-microservices",
+  live: null,
+  theme: "cyan",
+  featured: true,
+  role: "Backend & Systems Architecture",
+  features: [
+    "JWT-secured API gateway",
+    "Kafka event-driven order flow",
+    "Service discovery with Eureka",
+    "Redis caching layer",
+    "Per-service PostgreSQL databases",
+    "Dockerized multi-service deployment",
+  ],
+  highlights: [
+    "Designed 6 independently deployable Spring Boot microservices coordinated via Eureka and an API gateway",
+    "Built an async Kafka pipeline so order events trigger inventory updates and notifications without tight coupling",
+    "Load-tested the full stack with k6, validating <1% error rate and p(95) latency under 500ms",
+  ],
+},
 ];
 
 export const getProjectBySlug = (slug) =>
